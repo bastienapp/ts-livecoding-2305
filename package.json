@@ -5,13 +5,14 @@
   "main": "./dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node .",
+    "start": "tsx .",
     "dev": "npx tsc && npm start"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "tsx": "^3.12.7",
     "typescript": "^5.0.4"
   }
 }
